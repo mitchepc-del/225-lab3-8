@@ -13,6 +13,6 @@
 
 7) Go in to Rancher to also add in the following code in the kubectl shell >_ (after you replace your docker username, password and email):
 
-   "kubectl create secret docker-registry docker-creds --docker-username=roseaw --docker-password=P@ssw0rd! --docker-email=roseaw@miamioh.edu"
+   "kubectl create secret docker-registry docker-creds --docker-username=mitchepc --docker-password=P@ssw0rd! --docker-email=mitchepc@miamioh.edu"
 
     "kubectl create secret generic mongodb-secret --from-literal=mongo-root-username=admin --from-literal=mongo-root-password=password"
